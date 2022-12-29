@@ -1,5 +1,5 @@
 import React from "react";
-import propertyImg from "./../../public/projects/social.png";
+import propertyImg from "../../public/projects/social.png";
 import ProjectItem from "../ProjectItem/ProjectItem";
 
 const Projects = () => {
