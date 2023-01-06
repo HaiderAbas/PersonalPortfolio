@@ -1,6 +1,28 @@
 import React from "react";
 import Head from "next/head";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { AiOutlineMail, AiFillGithub } from "react-icons/ai";
+import { CiLocationOn } from "react-icons/ci";
+import { FiPhone } from "react-icons/fi";
+import Education from "../components/education/education";
+
+const CardsData = [
+  {
+    id: 1,
+    heading: "Karakurum International University",
+    para: "Bachelor of Computer Science and Information Technology",
+  },
+  {
+    id: 2,
+    heading: "Karakurum International University",
+    para: "Bachelor of Computer Science and Information Technology",
+  },
+  {
+    id: 3,
+    heading: "Karakurum International University",
+    para: "Bachelor of Computer Science and Information Technology",
+  },
+];
 
 const resume = () => {
   return (
@@ -8,7 +30,7 @@ const resume = () => {
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
         <h2 className="text-center">Resume</h2>
         <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
-          <h2 className="text-center">Clint Briley</h2>
+          <h2 className="text-center">Haider Abbas</h2>
           <div className="flex">
             <a target="_blank" rel="noreferrer">
               <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
@@ -21,7 +43,7 @@ const resume = () => {
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
-              Proven Leadership <span className="px-1">|</span> Web Development{" "}
+              Proven Leadership <span className="px-1">|</span> Web Development
               <span className="px-1">|</span> Complex Problem Solving
             </p>
           </div>
@@ -46,7 +68,7 @@ const resume = () => {
         {/* Skills */}
         <div className="text-center py-4">
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
-          <p className="py-2">
+          <p className="py-2 cursor-pointer">
             <span className="font-bold">Technical Skills</span>
             <span className="px-2">|</span>Front-End Web Developer
             <span className="px-2">|</span> HTML
@@ -61,23 +83,14 @@ const resume = () => {
             <span className="px-2">|</span> Firebase
             <span className="px-2">|</span> RESTAPI
           </p>
-          <p className="py-2">
-            <span className="font-bold">Amazon Web Services</span>
-            <span className="px-2">|</span>Amazon Web Services Cloud
-            Practitioner
-          </p>
         </div>
 
         <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
         <div className="py-6">
-          <p className="italic">
-            <span className="font-bold italic">INFINITE TECH</span>
-            <span className="px-2">|</span>Dallas, TX
-          </p>
           <p className="py-1 italic">
-            Front End Web Developer & Web Master (2013 - Current)
+            Front End Web Developer & Web Master (2020 - Current)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
@@ -93,71 +106,59 @@ const resume = () => {
               implement multiple technologies and programs.
             </li>
             <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+              Ensured comprehensive mobile responsive UI layouts with
+              understanding of React js , Tailwind Css , MUI , Next Js,
+              TypeScript.
             </li>
           </ul>
         </div>
-        <div className="py-6">
-          <p className="italic">
-            <span className="font-bold italic">
-              Teaching & Mentoring Web Development
-            </span>
-            <span className="px-2">|</span>Dallas, TX
-          </p>
-          <p className="py-1 italic">
-            Code Commerce - Youtube Channel (2021 - Current)
-          </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
-            </li>
-            <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
-            </li>
-          </ul>
+
+        <h5 className="text-center underline text-[18px] py-4 ">Contact</h5>
+        <div className="grid grid-cols-2">
+          <div
+            className="flex justify-center shadow-lg hover:scale-105 ease-in duration-300 my-4 py-6
+           my"
+          >
+            <FiPhone size={20} style={{ marginRight: "1rem" }} />
+            <p>+923112382229</p>
+          </div>
+          <div
+            className="flex justify-center shadow-lg hover:scale-105 ease-in duration-300 my-4 py-6
+           my"
+          >
+            <AiOutlineMail size={20} style={{ marginRight: "1rem" }} />
+            <p>haiderabbs.gb5@gmail.com</p>
+          </div>
+          <div
+            className="flex justify-center shadow-lg hover:scale-105 ease-in duration-300 my-4 py-6
+           my"
+          >
+            <CiLocationOn size={20} style={{ marginRight: "1rem" }} />
+            <p>Danyore Gilgit</p>
+          </div>
+          <div
+            className="flex justify-center shadow-lg hover:scale-105 ease-in duration-300 my-4 py-6
+           my"
+          >
+            <AiFillGithub size={20} style={{ marginRight: "1rem" }} />
+            <a
+              href="https://github.com/HaiderAbas"
+              target="_blank"
+              rel="noreferrer"
+            >
+              HaiderAbas
+            </a>
+          </div>
         </div>
-        <h5 className="text-center underline text-[18px] py-4">
-          Other Professional Experience
-        </h5>
-        <div className="py-6">
-          <p className="italic">
-            <span className="font-bold">CITY OF SHERMAN, TX</span>
-            <span className="px-2">|</span>Sherman, TX
-          </p>
-          <p className="py-1 italic">Paramedic / Firefighter (2010 – 2019)</p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
-            </li>
-            <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
-            </li>
-            <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
-            </li>
-          </ul>
+        <h5 className="text-center underline text-[18px] py-4">Education</h5>
+        <div className="grid grid-cols-2 text-center">
+          {CardsData.map((item) => {
+            return (
+              <div key={item.id}>
+                <Education heading={item.heading} para={item.para} />
+              </div>
+            );
+          })}
         </div>
       </div>
     </>
