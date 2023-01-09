@@ -14,13 +14,8 @@ const CardsData = [
   },
   {
     id: 2,
-    heading: "Karakurum International University",
-    para: "Bachelor of Computer Science and Information Technology",
-  },
-  {
-    id: 3,
-    heading: "Karakurum International University",
-    para: "Bachelor of Computer Science and Information Technology",
+    heading: "Degree College Gilgit",
+    para: "industrial control system (ICS)",
   },
 ];
 
