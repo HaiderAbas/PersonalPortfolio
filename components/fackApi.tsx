@@ -9,7 +9,7 @@ import NextJS from "../public/skills/nextjs.png";
 
 // .......................Skills..........................
 
-export default [
+export const SkillsApi = [
   {
     id: 1,
     image: Html,

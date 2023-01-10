@@ -12,16 +12,16 @@ const Main = () => {
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 ">
         <div className="max-w-[1240px] col-span-2">
           <p className="uppercase text-sm leading-tight text-gray-600">
-            LET&#39;S BUILD SOMETHING TOGETHER
+            LETs BUILD SOMETHING TOGETHER
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I'm <span className="text-[#5651e5]"> Haider</span>
+            Hi I am <span className="text-[#5651e5]"> Haider</span>
           </h1>
           <h1 className="py-2 text-gray-700 w-[70%] leading-tight">
             A Front-End Web <span className="mt-14">Developer</span>
           </h1>
           <p className="py-4 text-gray-600  m-auto">
-            I’m focused on building responsive front-end web applications <br />
+            I am focused on building responsive front-end web applications <br />
             integrating back-end technologies.
           </p>
           <div className="flex justify-start  m-auto py-4">
