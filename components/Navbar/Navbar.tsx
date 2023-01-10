@@ -36,7 +36,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-            <h2 className="text-[#5651e5]">Haider</h2>
+          <h2 className="text-[#5651e5]">Haider</h2>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -78,7 +78,7 @@ const Navbar = () => {
           className={
             nav
               ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+              : "fixed left-[-100%] top-0  ease-in duration-300"
           }
         >
           <div>
